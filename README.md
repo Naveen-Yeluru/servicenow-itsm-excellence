@@ -42,4 +42,4 @@ This project demonstrates my expertise in implementing and managing ServiceNow I
 2. Customize scripts and workflows as per your organization's needs.
 
 ## Contact
-For questions or collaboration, reach out via [LinkedIn](#) or email at `your-email@example.com`.
+For questions or collaboration, reach out via www.linkedin.com/in/naveenyeluru8498 or email at `naveenyeluru8498@gmail.com`.
