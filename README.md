@@ -1,45 +1,18 @@
-# ServiceNow ITSM Excellence
+# MID Server Setup
 
-## Project Overview
-This project demonstrates my expertise in implementing and managing ServiceNow ITSM modules, MID Server configuration, Discovery, chatbot development, and system administration. The goal was to enhance IT service delivery and automate workflows for an enterprise environment.
+## Overview
+The MID Server acts as a secure communication bridge between ServiceNow and on-premise systems. This guide outlines the steps for installation and configuration.
 
-## Features
-- **MID Server Setup**: Enabled secure communication between ServiceNow and on-premise systems.
-- **Discovery**: Identified and mapped Configuration Items (CIs) in the CMDB.
-- **ITSM Modules**: Configured Incident, Problem, Change, and Request Management.
-- **Notifications**: Automated alerts for updates, approvals, and escalations.
-- **Integrations**: Connected ServiceNow with external systems via REST APIs.
-- **Chatbot**: Developed a Virtual Agent to handle user interactions and queries.
-- **Administration**: Performed system configurations, upgrades, and troubleshooting.
+## Steps
+1. Download the MID Server installer from ServiceNow.
+2. Run the installer and follow the prompts:
+   - Provide the instance URL and credentials.
+   - Select the target installation folder.
+3. Verify the MID Server status in ServiceNow:
+   - Navigate to **MID Server > Servers** and ensure it is online.
+4. Assign credentials for Discovery in **MID Server > Credentials**.
+5. Run a connectivity test to validate the setup.
 
-## Skills Utilized
-- ServiceNow Administration
-- ITSM Configuration
-- MID Server & Discovery
-- API Integrations (REST/SOAP)
-- JavaScript & Glide Scripting
-- Chatbot Development
-
-## Key Deliverables
-1. Streamlined IT service management with automated workflows.
-2. Improved system visibility via Discovery and CMDB management.
-3. Enhanced user experience with a self-service chatbot.
-4. Established seamless data flow between ServiceNow and external platforms.
-
-## Repository Content
-- **Documentation**:
-  - `MID-Server-Setup.md`: Steps for MID Server installation and configuration.
-  - `Discovery-Guide.md`: CMDB Discovery process and CI mapping.
-  - `Integration-Scripts.md`: Code samples for REST API integrations.
-  - `Chatbot-Config.md`: Virtual Agent setup and conversation design.
-
-- **Sample Code**:
-  - Workflows and script examples for ITSM modules.
-  - REST API payloads and integration scripts.
-
-## How to Use
-1. Refer to the documentation for implementation steps.
-2. Customize scripts and workflows as per your organization's needs.
-
-## Contact
-For questions or collaboration, reach out via www.linkedin.com/in/naveenyeluru8498 or email at `naveenyeluru8498@gmail.com`.
+## Best Practices
+- Use separate MID Servers for different environments (e.g., Dev, Prod).
+- Regularly monitor MID Server health and logs.
